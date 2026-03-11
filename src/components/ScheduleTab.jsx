@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { schedule, categoryColors } from "../data/schedule.js";
 import { useTheme } from "../context/ThemeContext.jsx";
-import { Dot, Divider, TipBox, PillButton, ExpandCard, IconBadge, Chevron, StatCard, CategoryTag } from "./UI.jsx";
+import { Dot, Divider, TipBox, PillButton, ExpandCard, IconBadge, Chevron, StatCard, CategoryTag } from "./Ui.jsx";
 
 const CATEGORIES = [
   { id: "sleep",    icon: "😴" },

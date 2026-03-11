@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { weeklyStudyPlan } from "../data/studyPlan.js";
 import { useTheme } from "../context/ThemeContext.jsx";
-import { Divider, SectionLabel, ExpandCard, Chevron, ResourceBadges, ProgressBar } from "./UI.jsx";
+import { Divider, SectionLabel, ExpandCard, Chevron, ResourceBadges, ProgressBar } from "./Ui.jsx";
 
 const MONTH_ICONS = ["🌱", "🔧", "🚀"];
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { meals, hydrationPlan } from "../data/meals.js";
 import { useTheme } from "../context/ThemeContext.jsx";
-import { Dot, Divider, ExpandCard, IconBadge, Chevron } from "./UI.jsx";
+import { Dot, Divider, ExpandCard, IconBadge, Chevron } from "./Ui.jsx";
 
 const MACRO_COLORS = { Protein: "#ef4444", Carbs: "#f59e0b", Fat: "#3b82f6" };
 
